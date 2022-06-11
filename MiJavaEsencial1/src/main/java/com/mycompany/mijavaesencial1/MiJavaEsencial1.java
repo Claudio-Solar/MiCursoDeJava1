@@ -41,6 +41,22 @@ public class MiJavaEsencial1 {
           System.out.println(division);
           System.out.println(modulo);
           System.out.println(incremento);
-          System.out.println(decremento);          
+          System.out.println(decremento);
+          System.out.println("====================="); 
+        
+        String nombreMinuscula = "claudio";
+        System.out.println(nombreMinuscula.toUpperCase());
+        System.out.println("=====================");
+        
+        String nombreMayuscula ="CLAUDIO";
+        String apellidoMayuscula1="SOLAR";
+        String apellidoMayuscula2="TORRES";
+        
+        System.out.println(nombreMayuscula.toLowerCase()+" "+apellidoMayuscula1.toLowerCase()+" "+apellidoMayuscula2.toLowerCase());
+        System.out.println("=====================");
+        
+        String cadenaCompleto= "Java no es tan complicado";
+        System.out.println(cadenaCompleto.indexOf("no"));
+          
     }
 }
